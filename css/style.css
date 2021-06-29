@@ -1,0 +1,19 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    font-size: 22px;
+}
+p {
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+    color: #2688FF;
+}
+.container {
+    width: 50%;
+}
+.google {
+    height: 100px;
+}
