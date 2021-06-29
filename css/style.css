@@ -11,9 +11,51 @@ a {
     text-decoration: none;
     color: #2688FF;
 }
+header {
+    position: relative;
+    border-bottom: 1px solid lightgrey;
+}
 .container {
     width: 50%;
 }
 .google {
-    height: 100px;
+    height: 50px;
+}
+.privacy {
+    font-size: 20px; 
+    color: grey;
+}
+a:hover {
+    text-decoration: none;
+}
+a
+.header_1 {
+    height: 40px;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.header_2 {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+ul {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    line-height: 50px;
+}
+.header_2 li {
+    margin: 0 30px;
+    list-style: none;
+    cursor: pointer;
+}
+.header_2 li:hover {
+    color: #2688FF;
+    border-bottom: 3px solid #2688FF;
+}
+.active {
+    color: #2688FF;
+    border-bottom: 3px solid #2688FF;
 }
